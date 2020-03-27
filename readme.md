@@ -9,5 +9,5 @@ This python algorithm has been created to analyze language characteristics: leng
 ![Words created according to the analises pattern in French and in English](words.png)
 
 ### Credits
-https://github.com/dwyl for the english dictionnary used for testing
-https://www.freelang.com/dictionnaire/dic-francais.php for the french dictionnary used for testing
+- https://github.com/dwyl for the english dictionnary used for testing
+- https://www.freelang.com/dictionnaire/dic-francais.php for the french dictionnary used for testing
