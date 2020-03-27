@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 class Analysis:
 	global MAX_WORD_LENGTH
-	MAX_WORD_LENGTH = 30
+	MAX_WORD_LENGTH = 60
 	
 	def __init__(self, sample, extension, alphabet = [chr(i) for i in range(ord('a'), ord('z')+1)], encoding="iso-8859-1"):
 		self.sample = sample # Sample of language data to use
@@ -73,6 +73,7 @@ class Analysis:
 						previous_letter = -1 # If letter isn't in the alphabet
 						
 		#Downscaling
+		#self.word_length = np.log(self.word_length)
 		self.alphabetical_periodicity /= np.sum(self.alphabetical_periodicity) 
 		self.probability_matrices[:] /= np.sum(self.probability_matrices[:])		
 		
